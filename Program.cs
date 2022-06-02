@@ -38,7 +38,7 @@ app.UseSwaggerUI(c =>
    c.RoutePrefix = string.Empty; // Adds a swagger route at the root of the application
 });
 
-var connectionString = "DefaultEndpointsProtocol=https;AccountName=l3moniapimstorage;AccountKey=hrDbXc/BC8+4JbR7x5zVYFSYKCvqrtO+RoKozPM2A+hdwEYdYLKun4u0T3WKPpG8jHZaUOaMyj4fJMA39/QlYg==;EndpointSuffix=core.windows.net";
+var connectionString = "####";
 var queuename = "l3moni-queue";
 
 app.MapPost("/createaqueue/{newqueuename}",(string newqueuename) => {
